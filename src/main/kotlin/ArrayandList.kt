@@ -1,7 +1,19 @@
+import java.util.*
+
 fun main() {
     //  배열과 리스트는 큰 차이점이 있다. Array and List
     //  Array는 정해진 사이즈가 있고, 이미 메모리가 할당되어서 나오기 때문에 처음 크기를 지정해주어야 한다.
     //  List는 1. List(수정불가) 2. MutableList(수정가능)
+
+    var myArray: Array<String> = arrayOf("Jongdroid", "Happy", "Nice")
+
+    println(myArray.size) // 배열의 크기 반환
+    println(myArray.reversed()) // 거꾸로 뒤집은 배열 반환
+
+    println(myArray.contains("Jongdroid")) // 특정 원소가 배열에 포함하는지 boolean 값 반환
+    println(myArray.sorted()) // 오름차순 정렬
+    println(myArray.sortedDescending()) // 내림차순 정렬
+
 }
 
 fun array() {

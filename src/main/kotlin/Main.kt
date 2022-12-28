@@ -8,6 +8,7 @@ fun main() {
     println("안녕하세요 Shoppi 에 오신 것을 환영합니다!")
     println("저희가 머라고 불러드리면 될까요? 이름을 입력해주세요")
 
+
     val name = readLine()
     // 개행을 반영함
     println("""

@@ -35,10 +35,14 @@ class Korean : Country() {
     override fun work() {
         super.work() // 부모 클래스에 메서드도 사용한다!
         println("한쿡 사람은 빨리빨리 일해요")
+        println("이만큼 벌었어요 $money")
 
     }
     // 만약에 부모 클래스에 메서드도 사용하고 싶다면?
     // super 를 쓰면 된다.
+
+    // 프로퍼티도 상속 받아올 수 있다.
+
 }
 
 fun main() {
